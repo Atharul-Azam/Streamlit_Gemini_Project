@@ -34,7 +34,7 @@ def quiz_generator(image,difficulty):
 
     response = client.models.generate_content(
         model="gemini-3-flash-preview",
-        contents=[image,prompt]
+        contents=[prompt,image]
     )
 
     return response.text
