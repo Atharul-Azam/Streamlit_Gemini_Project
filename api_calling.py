@@ -1,7 +1,10 @@
-import google.genai as genai
+from google import genai
 from dotenv import load_dotenv
 import os ,io
 from gtts import gTTS
+
+
+
 
 
 #loading the environment variable 
