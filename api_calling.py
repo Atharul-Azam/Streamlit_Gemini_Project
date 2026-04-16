@@ -10,7 +10,7 @@ load_dotenv()
 my_api_key = os.getenv("GEMINI_API_KEY")
 
 #initializing a client 
-client = genai.Client(api_key= api_key)
+client = genai.Client(api_key= my_api_key)
 
 
 
